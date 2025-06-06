@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1823c1d15b8264dbb8cfc3b65504cd, type: 3}
+  m_Name: SandTheme
+  m_EditorClassIdentifier: 
+  PlayerPrefab: {fileID: 7781805325109420056, guid: 11d944df650817c4da19dc30168e1411, type: 3}
+  GroundTiles:
+  - {fileID: 11400000, guid: d8b3ca7cd5a28f74695dcbfa61cc4800, type: 2}
+  - {fileID: 11400000, guid: 409199884dfdd3140ae84daf6c142875, type: 2}
+  - {fileID: 11400000, guid: bec171ca61d145940b76d6947fc5ad7f, type: 2}
+  - {fileID: 11400000, guid: 0b07c0a5bf060d94f8ddb40fdecad734, type: 2}
+  - {fileID: 11400000, guid: 31bf371fdb0a49a4ab6e6ffd75f56799, type: 2}
+  - {fileID: 11400000, guid: 2afc762600ae6604abceb0d7e56bed24, type: 2}
+  - {fileID: 11400000, guid: 64a0754f94144964dadbd598b38da559, type: 2}
+  - {fileID: 11400000, guid: 41c306239ac8cc04c9e109b9eda8973e, type: 2}
+  - {fileID: 11400000, guid: e70beb4f977b94a41af220e1312e6ab5, type: 2}
+  WallTiles:
+  - {fileID: 11400000, guid: 47e86f7d5da19384a8b0389fe56f5c71, type: 2}
+  - {fileID: 11400000, guid: e8b4764a67c3d7c45bd5c037f399462c, type: 2}
+  ExitCellPrefab: {fileID: 5229351081219166871, guid: f44cb37e1b4e9be479ba76eb6119c075, type: 3}
+  WallPrefabs:
+  - {fileID: 3280931898033010430, guid: 5121fb1ab18c8254d80bb4c497d4ce8c, type: 3}
+  - {fileID: 6138767863599955121, guid: 00827d8ced5dc7140b7fe4bd1482b90f, type: 3}
+  - {fileID: 6138767863599955121, guid: 7ba63d5558f194a45b18d64997b56f54, type: 3}
+  AmbiencePrefab: {fileID: 7045903265848354692, guid: 3a4f4ac43d5a14e808b83aba01e2dd6b, type: 3}
+  MusicPrefab: {fileID: 6738538012822459512, guid: b0d2bab5a1df940eab668e068d6787ca, type: 3}

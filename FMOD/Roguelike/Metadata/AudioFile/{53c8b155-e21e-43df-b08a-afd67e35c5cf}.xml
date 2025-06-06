@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{53c8b155-e21e-43df-b08a-afd67e35c5cf}">
+		<property name="assetPath">
+			<value>User Interface, Alert, Alert Tone, Reverb, Three Variatons SND37228.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.3454583333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{44f7c792-2f4a-436e-82be-bbb0c256c263}</destination>
+		</relationship>
+	</object>
+</objects>

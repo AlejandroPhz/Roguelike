@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c7d92b11117d20c4b8f481bf7f29a32c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanWall2.prefab
+  uploadId: 699666

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5121fb1ab18c8254d80bb4c497d4ce8c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Sand/Prefabs/SandWall.prefab
+  uploadId: 699666

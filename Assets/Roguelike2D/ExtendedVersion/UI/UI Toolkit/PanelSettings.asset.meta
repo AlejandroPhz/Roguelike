@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9603c8682d16845869c85bd41f68d78a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/UI/UI Toolkit/PanelSettings.asset
+  uploadId: 699666

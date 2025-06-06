@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 23ec6bf7154fc664492f9e9a3b0011ca
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Animation/SnowEnemy2/Snow_Enemy2_Idle.anim
+  uploadId: 699666

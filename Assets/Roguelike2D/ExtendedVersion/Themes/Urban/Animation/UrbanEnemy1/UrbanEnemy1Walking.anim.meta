@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 215525a6d13832b4b9cdbe38fc8e0396
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Animation/UrbanEnemy1/UrbanEnemy1Walking.anim
+  uploadId: 699666

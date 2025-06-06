@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6259ad63c564244c7be963c8d5a9b295
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Tiles/Scavengers_SpriteSheet_26.asset
+  uploadId: 699666

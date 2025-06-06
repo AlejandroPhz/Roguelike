@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c0a12fe8e88ecb84aa47527ea8486c70
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Sand/Prefabs/SandFood_Big.prefab
+  uploadId: 699666

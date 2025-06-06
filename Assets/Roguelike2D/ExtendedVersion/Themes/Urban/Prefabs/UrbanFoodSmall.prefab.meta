@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5cfc695d804e0d64a8fbac9e0884970d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanFoodSmall.prefab
+  uploadId: 699666

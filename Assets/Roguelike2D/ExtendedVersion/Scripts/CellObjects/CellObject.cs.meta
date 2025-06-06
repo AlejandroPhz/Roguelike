@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b591b97840fd8be45a9c8e82baf6c458
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Scripts/CellObjects/CellObject.cs
+  uploadId: 699666

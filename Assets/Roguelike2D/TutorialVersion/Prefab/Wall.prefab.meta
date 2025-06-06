@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 64090ada82d8b2d4cb229d89eca7746b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/TutorialVersion/Prefab/Wall.prefab
+  uploadId: 699666

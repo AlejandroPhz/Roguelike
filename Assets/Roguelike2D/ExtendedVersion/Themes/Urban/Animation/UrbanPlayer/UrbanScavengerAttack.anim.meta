@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64a30ac9d712b314887fedf4378bab57
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Animation/UrbanPlayer/UrbanScavengerAttack.anim
+  uploadId: 699666

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{32d9d484-06e1-4e77-ab4d-12323bebdb1f}">
+		<property name="assetPath">
+			<value>Winter Night.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>106.66666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{44f7c792-2f4a-436e-82be-bbb0c256c263}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e1fca12bd47489544bdbb274dbaef3fe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Tiles/Scavengers2_SpriteSheet_29.asset
+  uploadId: 699666

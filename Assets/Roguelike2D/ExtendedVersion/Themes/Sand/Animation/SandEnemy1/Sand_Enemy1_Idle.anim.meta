@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 13d3390968ad95d4daf20c300a7e9f57
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Sand/Animation/SandEnemy1/Sand_Enemy1_Idle.anim
+  uploadId: 699666

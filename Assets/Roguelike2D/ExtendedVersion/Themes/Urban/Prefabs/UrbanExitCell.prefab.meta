@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d5407968a50c18a4587bc936e93c2b6e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanExitCell.prefab
+  uploadId: 699666

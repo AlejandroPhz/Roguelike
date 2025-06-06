@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 353abd4af3530f74b9d5e628813f0e40
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Scripts/Helpers/CrossSceneDataStore.cs
+  uploadId: 699666

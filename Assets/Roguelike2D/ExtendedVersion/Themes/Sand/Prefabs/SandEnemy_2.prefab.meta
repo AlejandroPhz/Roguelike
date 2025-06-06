@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 14446e146fa988f4b9473f9f1372fc7d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Sand/Prefabs/SandEnemy_2.prefab
+  uploadId: 699666

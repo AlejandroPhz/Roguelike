@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b47827737c1821944b413cc089f7a466
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanEnemy2.prefab
+  uploadId: 699666

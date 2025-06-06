@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5812b93e5855a7c4fa1ea8f010eba4c5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanScavenger.prefab
+  uploadId: 699666

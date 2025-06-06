@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8e4fec25e165df748afc60da746e15d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/TutorialVersion/Animations/TutorialEnemy.controller
+  uploadId: 699666

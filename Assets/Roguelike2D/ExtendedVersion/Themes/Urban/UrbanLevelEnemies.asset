@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7b7be30700fd7e449b13c83c6b60ecf, type: 3}
+  m_Name: UrbanLevelEnemies
+  m_EditorClassIdentifier: 
+  EnemyCount:
+  - Level: 0
+    Minimum: 1
+    Maximum: 1
+  - Level: 2
+    Minimum: 1
+    Maximum: 2
+  - Level: 4
+    Minimum: 3
+    Maximum: 5
+  Enemies:
+  - Enemy: {fileID: 5167082878740980427, guid: 298809d9674536c488b39b8419638c27, type: 3}
+    Probabilities:
+    - Level: 0
+      Weight: 1
+    - Level: 4
+      Weight: 6
+    - Level: 8
+      Weight: 2
+  - Enemy: {fileID: 5167082878740980427, guid: 298809d9674536c488b39b8419638c27, type: 3}
+    Probabilities:
+    - Level: 0
+      Weight: 1
+    - Level: 4
+      Weight: 6
+    - Level: 8
+      Weight: 2

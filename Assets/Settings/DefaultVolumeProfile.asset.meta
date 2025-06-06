@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2143edcea16ad9a42b537b1cf85ae6fa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Settings/DefaultVolumeProfile.asset
+  uploadId: 699666

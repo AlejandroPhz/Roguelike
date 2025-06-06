@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f44cb37e1b4e9be479ba76eb6119c075
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Sand/Prefabs/SandExitCell.prefab
+  uploadId: 699666

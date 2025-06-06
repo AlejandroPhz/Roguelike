@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Roguelike2D/ExtendedVersion/UI/GameStyle.uss?fileID=7433441132597879392&amp;guid=48f3dc0636b880743a8f3ddce0f76c56&amp;type=3#GameStyle" />
+    <engine:VisualElement name="Title" style="flex-grow: 1; position: absolute; top: 0; left: 20%; right: 20%; height: 20%; padding-top: 20px; padding-bottom: 20px;">
+        <engine:Label text="Roguelike 2D" name="TitleText" style="flex-grow: 1; font-size: 80px; -unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=b284a6525342f44599e9ce79e37c2d61&amp;type=3#PressStart2P-Regular&quot;); -unity-text-outline-width: 5px; color: rgb(255, 255, 255); -unity-text-outline-color: rgb(0, 0, 0);" />
+    </engine:VisualElement>
+    <engine:VisualElement name="Menu" enabled="true" style="flex-grow: 1; position: absolute; left: 20%; right: 20%; bottom: 0; top: 20%; padding-bottom: 50px; padding-top: 50px; justify-content: center;">
+        <engine:DropdownField label="Theme" name="ThemeDropdown" index="0" choices="Theme 1,Theme 2" class="menu-dropdown" />
+        <engine:Button text="Continue" name="Continue" class="menu-button" />
+        <engine:Button text="New" name="New" class="menu-button" />
+        <engine:Button text="Settings" name="Settings" class="menu-button" style="display: none;" />
+        <engine:Button text="Quit" name="Quit" class="menu-button" />
+    </engine:VisualElement>
+</engine:UXML>

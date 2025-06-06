@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 570a0a43076f17e4a99dccb3d46cddbb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Prefabs/SnowWall.prefab
+  uploadId: 699666

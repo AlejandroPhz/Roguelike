@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1a48df818f4953e4dbf709dc26c9b455
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Prefabs/SnowEnemy_2.prefab
+  uploadId: 699666

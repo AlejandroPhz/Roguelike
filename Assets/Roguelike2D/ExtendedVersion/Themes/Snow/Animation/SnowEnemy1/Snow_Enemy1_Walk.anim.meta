@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8d1a8643da710884d9ac167c1d4dd4c1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Animation/SnowEnemy1/Snow_Enemy1_Walk.anim
+  uploadId: 699666

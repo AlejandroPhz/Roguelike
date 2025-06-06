@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7509137f718be004f93a50a77b7b65ac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/SnowWorldSettings.asset
+  uploadId: 699666

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e7e0f06cba2813841b5b8be4701c5d9b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Animation/UrbanEnemy2/UrbanEnemy2Idle.anim
+  uploadId: 699666

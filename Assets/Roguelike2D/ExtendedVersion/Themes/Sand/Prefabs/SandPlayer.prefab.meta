@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 11d944df650817c4da19dc30168e1411
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Sand/Prefabs/SandPlayer.prefab
+  uploadId: 699666

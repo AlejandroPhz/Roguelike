@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 88cfee64c67648640a1134bf067cc3c5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Animation/SnowPlayer/SnowPlayerIdle.anim
+  uploadId: 699666

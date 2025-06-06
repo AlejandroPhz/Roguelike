@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 06f66fad4f233914ea33fab0c9385356
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Animation/SnowEnemy1/Snow_Enemy1_Attack.anim
+  uploadId: 699666

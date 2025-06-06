@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 083cbaad716d7e24bba457b604c415d8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Prefabs/SnowScavenger.prefab
+  uploadId: 699666

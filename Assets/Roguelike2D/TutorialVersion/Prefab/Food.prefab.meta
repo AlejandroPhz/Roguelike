@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5a4fa5f180b36ad488f84ff91f2fe77f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/TutorialVersion/Prefab/Food.prefab
+  uploadId: 699666

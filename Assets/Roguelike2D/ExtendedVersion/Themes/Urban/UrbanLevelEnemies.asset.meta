@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fd635f054fb442b4597120b2aa8c01be
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/UrbanLevelEnemies.asset
+  uploadId: 699666

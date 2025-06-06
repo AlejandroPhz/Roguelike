@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1823c1d15b8264dbb8cfc3b65504cd, type: 3}
+  m_Name: SnowTheme
+  m_EditorClassIdentifier: 
+  PlayerPrefab: {fileID: 7781805325109420056, guid: 083cbaad716d7e24bba457b604c415d8, type: 3}
+  GroundTiles:
+  - {fileID: 11400000, guid: 75f687ca32e872e4b8f667b5b515492d, type: 2}
+  - {fileID: 11400000, guid: 734ce0c24cfb51a48abffdf5edc07941, type: 2}
+  - {fileID: 11400000, guid: db24e0814e0a6064c95b6a7d38d01199, type: 2}
+  - {fileID: 11400000, guid: 97578941e641320459d58600307c3015, type: 2}
+  - {fileID: 11400000, guid: ce04a046997c2574a86e97339cc5eb8f, type: 2}
+  - {fileID: 11400000, guid: 7d5240f597d970a4aa7bdf9aeaa0d8fa, type: 2}
+  - {fileID: 11400000, guid: 3298b2a519275ef4797233ce2c50a52d, type: 2}
+  - {fileID: 11400000, guid: 22d3d768ab83e624193d1e13583aaece, type: 2}
+  WallTiles:
+  - {fileID: 11400000, guid: e1fca12bd47489544bdbb274dbaef3fe, type: 2}
+  ExitCellPrefab: {fileID: 5229351081219166871, guid: d8689c8c81b383646ae5ca6c144b9e0c, type: 3}
+  WallPrefabs:
+  - {fileID: 6138767863599955121, guid: 570a0a43076f17e4a99dccb3d46cddbb, type: 3}
+  AmbiencePrefab: {fileID: 4501436557175229198, guid: 73646852726d5484eac1d1eb2bdd54b3, type: 3}
+  MusicPrefab: {fileID: 2999443263842878502, guid: e2afa673265234404bafd8de41525d49, type: 3}

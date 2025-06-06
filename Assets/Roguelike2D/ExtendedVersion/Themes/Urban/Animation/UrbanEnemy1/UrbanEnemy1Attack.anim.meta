@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a55c91cda6b108b48aa1b049c9457809
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Animation/UrbanEnemy1/UrbanEnemy1Attack.anim
+  uploadId: 699666

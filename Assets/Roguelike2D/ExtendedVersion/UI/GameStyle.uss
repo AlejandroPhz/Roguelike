@@ -1,0 +1,61 @@
+VisualElement {
+}
+
+.menu-button {
+    font-size: 60px;
+    margin-top: 32px;
+    -unity-font-definition: url("project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&guid=b284a6525342f44599e9ce79e37c2d61&type=3#PressStart2P-Regular");
+    -unity-text-align: middle-center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.menu-dropdown {
+    font-size: 60px;
+    margin-top: 32px;
+    -unity-font-definition: url("project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&guid=b284a6525342f44599e9ce79e37c2d61&type=3#PressStart2P-Regular");
+    -unity-text-align: middle-center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.menu-button:hover {
+    background-color: rgb(122, 122, 122);
+    -unity-text-outline-color: rgb(255, 255, 255);
+}
+
+.menu-dropdown {
+    font-size: 50px;
+}
+
+.menu-dropdown:focus {
+    background-color: rgb(122, 122, 122);
+    -unity-text-outline-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.menu-dropdown:focus > Label {
+    color: rgb(255, 255, 255);
+    -unity-font-style: normal;
+}
+
+.menu-dropdown .unity-base-popup-field__text {
+    color: black;
+}
+
+.menu-dropdown > .unity-base-popup-field__input {
+    background-color: white;
+}
+
+.pause-audio-slider {
+    -unity-font-definition: url("project://database/Assets/Roguelike2D/TutorialAssets/Fonts/PressStart2P-Regular.ttf?fileID=12800000&guid=b284a6525342f44599e9ce79e37c2d61&type=3#PressStart2P-Regular");
+    color: rgb(255, 255, 255);
+}
+
+.pause-audio-slider .unity-base-slider__tracker {
+    background-color: white;
+}
+
+.pause-audio-slider .unity-base-slider__dragger {
+    width: 20px;
+}

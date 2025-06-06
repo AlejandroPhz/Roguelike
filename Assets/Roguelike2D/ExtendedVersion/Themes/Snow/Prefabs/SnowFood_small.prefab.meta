@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 19b2b844f05c80f4cb792363d0565d0f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Prefabs/SnowFood_small.prefab
+  uploadId: 699666

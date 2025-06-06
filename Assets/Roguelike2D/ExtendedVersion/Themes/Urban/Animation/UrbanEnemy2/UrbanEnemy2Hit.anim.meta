@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f56c1a8e4542fcf4ca5c96d923a52d0d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Animation/UrbanEnemy2/UrbanEnemy2Hit.anim
+  uploadId: 699666

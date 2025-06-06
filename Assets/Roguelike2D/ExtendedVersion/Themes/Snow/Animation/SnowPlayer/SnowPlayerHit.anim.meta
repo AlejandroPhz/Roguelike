@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 74577fcd5bdff1341bc181f5d896a4a0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Animation/SnowPlayer/SnowPlayerHit.anim
+  uploadId: 699666

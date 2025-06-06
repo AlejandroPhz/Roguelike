@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6814ed006bc8ee6418e5fb98cd657c74
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Scripts/CellObjects/Enemy.cs
+  uploadId: 699666

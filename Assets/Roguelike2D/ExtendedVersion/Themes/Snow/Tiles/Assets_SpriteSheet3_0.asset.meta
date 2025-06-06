@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 441b8ced01a6a4041a2b7da84bd68ed1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Tiles/Assets_SpriteSheet3_0.asset
+  uploadId: 699666

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d25d1583307256442815d998772f4cdc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Settings/Build Profiles/ExtendedVersion.asset
+  uploadId: 699666

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 88347452f0632ec43ab78436f0da6043
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Sand/Animation/SandEnemy1/Sand_Enemy1_Controller.controller
+  uploadId: 699666

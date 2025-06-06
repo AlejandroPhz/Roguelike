@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d77017ed3a2d2a045a04611fa3148b59
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Scripts/Helpers/MovingObjectSystem.cs
+  uploadId: 699666

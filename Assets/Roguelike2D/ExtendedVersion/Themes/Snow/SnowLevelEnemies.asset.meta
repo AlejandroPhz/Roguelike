@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d54588d1292a2044f96e0b9182a478bf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/SnowLevelEnemies.asset
+  uploadId: 699666

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d8689c8c81b383646ae5ca6c144b9e0c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 299017
+  packageName: 2D Roguelike | Complete Project
+  packageVersion: 1.0
+  assetPath: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/Prefabs/SnowExitCell.prefab
+  uploadId: 699666
