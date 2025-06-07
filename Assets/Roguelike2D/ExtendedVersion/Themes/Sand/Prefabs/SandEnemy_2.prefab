@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6196235079801139628}
   - component: {fileID: 5269671174813644287}
   - component: {fileID: 5167082878740980427}
-  - component: {fileID: -6078342990636768659}
   m_Layer: 0
   m_Name: SandEnemy_2
   m_TagString: Untagged
@@ -125,44 +124,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ID: SandEnemy_2
-  Health: 4
+  Health: 3
   Damage: 1
   Speed: 1
-  WalkSFX: []
-  DamagedSFX: []
-  AttackSFX: []
-  EnemyAttack: event:/SFX/Enemies/Desert Insect Attack
-  EnemyDamage: event:/SFX/Enemies/Desert Insect Damage
-  EnemyDeath: event:/SFX/Enemies/Desert Insect Death
-  EnemyMove: event:/SFX/Enemies/Desert Insect Move
---- !u!114 &-6078342990636768659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6851174484903356763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
+  WalkSFX:
+  - {fileID: 0}
+  - {fileID: 0}
+  DamagedSFX:
+  - {fileID: 0}
+  AttackSFX:
+  - {fileID: 0}
+  EnemyAttack:
+    Guid:
+      Data1: -1369962766
+      Data2: 1296185518
+      Data3: 1636446623
+      Data4: 312194523
+    Path: event:/SFX/Enemies/Desert Insect Attack
+  EnemyDamage:
+    Guid:
+      Data1: -164275648
+      Data2: 1108033668
+      Data3: -787909205
+      Data4: -799832455
+    Path: event:/SFX/Enemies/Desert Insect Damage
+  EnemyDeath:
     Guid:
       Data1: -1981545385
       Data2: 1221170407
       Data3: -618094456
       Data4: -1228559465
     Path: event:/SFX/Enemies/Desert Insect Death
-  Event: 
-  EventPlayTrigger: 2
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  EnemyMove:
+    Guid:
+      Data1: -286168408
+      Data2: 1243234594
+      Data3: 448419994
+      Data4: -456510331
+    Path: event:/SFX/Enemies/Desert Insect Move

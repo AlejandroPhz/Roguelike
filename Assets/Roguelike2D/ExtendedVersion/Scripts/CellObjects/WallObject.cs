@@ -1,6 +1,8 @@
 using System.IO;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using FMOD.Studio;
+using FMODUnity;
 
 namespace Roguelike2D
 {
@@ -12,6 +14,9 @@ namespace Roguelike2D
 
         private Tile m_OriginalTile;
         private int m_CurrentHealth;
+
+        public EventReference WallHit;
+        public EventReference WallDestroy;
     
         public override void Init(Vector2Int coord)
         {
@@ -37,12 +42,21 @@ namespace Roguelike2D
         {
             m_CurrentHealth -= amount;
 
+            if(m_CurrentHealth > 0)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot(WallHit);
+            }
+
             if (m_CurrentHealth == 1)
             {
+                
+
                 GameManager.Instance.Board.SetCellTile(m_Cell, WallTileDamaged);
             }
             else if (m_CurrentHealth == 0)
             {
+                FMODUnity.RuntimeManager.PlayOneShot(WallDestroy);
+
                 GameManager.Instance.Board.SetCellTile(m_Cell, m_OriginalTile);
                 Destroy(gameObject);
             }

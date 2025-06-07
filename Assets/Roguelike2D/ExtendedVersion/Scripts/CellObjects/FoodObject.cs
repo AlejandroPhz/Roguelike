@@ -1,5 +1,7 @@
 using UnityEngine;
 using Random = UnityEngine.Random;
+using FMOD.Studio;
+using FMODUnity;
 
 namespace Roguelike2D
 {
@@ -7,6 +9,8 @@ namespace Roguelike2D
     {
         public AudioClip[] PickedUpAudio;
         public int AmountGranted = 10;
+
+        public EventReference FoodEat;
 
         private void OnDestroy()
         {
@@ -16,6 +20,8 @@ namespace Roguelike2D
 
         public override void PlayerEntered()
         {
+            FMODUnity.RuntimeManager.PlayOneShot(FoodEat);
+
             Destroy(gameObject);
         
             //increase food

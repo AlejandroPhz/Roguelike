@@ -48,3 +48,17 @@ MonoBehaviour:
   WallTile: {fileID: 11400000, guid: 0613f5f7a09d6a9488ed628a0a293e2c, type: 2}
   WallTileDamaged: {fileID: 11400000, guid: 623b20137a9363947b8d633bf805f150, type: 2}
   MaxHealth: 3
+  WallHit:
+    Guid:
+      Data1: -961700696
+      Data2: 1101438021
+      Data3: 878612610
+      Data4: -843930144
+    Path: event:/SFX/Interactables/Walls/Desert Wall Hit
+  WallDestroy:
+    Guid:
+      Data1: 1949090453
+      Data2: 1081304526
+      Data3: -395709282
+      Data4: -1068347387
+    Path: event:/SFX/Interactables/Walls/Desert Wall Destroy

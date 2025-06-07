@@ -23,7 +23,7 @@ MonoBehaviour:
     Minimum: 20
     Maximum: 28
   Items:
-  - Item: {fileID: 7056536516758127697, guid: 062921aa86a08484f891de1b75ab07d5, type: 3}
+  - Item: {fileID: -4506179053142769594, guid: 062921aa86a08484f891de1b75ab07d5, type: 3}
     Probabilities:
     - Level: 0
       Weight: 100
@@ -31,7 +31,7 @@ MonoBehaviour:
       Weight: 50
     - Level: 8
       Weight: 20
-  - Item: {fileID: -7670983505487320574, guid: c0a12fe8e88ecb84aa47527ea8486c70, type: 3}
+  - Item: {fileID: -6287507574785313943, guid: c0a12fe8e88ecb84aa47527ea8486c70, type: 3}
     Probabilities:
     - Level: 0
       Weight: 10

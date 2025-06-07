@@ -37,7 +37,7 @@ namespace Roguelike2D
         public int CurrentLevel => m_CurrentLevel;
 
         private int m_CurrentLevel = 1;
-        private int m_FoodAmount = 100;
+        public int m_FoodAmount = 100;
 
         public AudioMixer AudioMixer;
         public AudioSource SFXSourcePrefab;

@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6814ed006bc8ee6418e5fb98cd657c74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ID: 
+  m_ID: SandEnemy_1
   Health: 3
   Damage: 1
   Speed: 1
@@ -134,7 +134,31 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 114514a3b3697484ebaa08f7fbf842d3, type: 3}
   AttackSFX:
   - {fileID: 8300000, guid: 0db8cac2749584a009540aa5671ee80d, type: 3}
-  EnemyAttack: event:/SFX/Enemies/Desert Zombie Attack
-  EnemyDamage: event:/SFX/Enemies/Desert Zombie Damage
-  EnemyDeath: event:/SFX/Enemies/Desert Zombie Death
-  EnemyMove: event:/SFX/Enemies/Desert Zombie Move
+  EnemyAttack:
+    Guid:
+      Data1: -1066011846
+      Data2: 1234857282
+      Data3: -546245997
+      Data4: 2064160679
+    Path: event:/SFX/Enemies/Desert Zombie Attack
+  EnemyDamage:
+    Guid:
+      Data1: 1956551741
+      Data2: 1219804914
+      Data3: 1554268339
+      Data4: -1533678208
+    Path: event:/SFX/Enemies/Desert Zombie Damage
+  EnemyDeath:
+    Guid:
+      Data1: 1873198457
+      Data2: 1094491189
+      Data3: 2131985055
+      Data4: -277664878
+    Path: event:/SFX/Enemies/Desert Zombie Death
+  EnemyMove:
+    Guid:
+      Data1: -689045134
+      Data2: 1233939454
+      Data3: -668362601
+      Data4: 1508854549
+    Path: event:/SFX/Enemies/Desert Zombie Move

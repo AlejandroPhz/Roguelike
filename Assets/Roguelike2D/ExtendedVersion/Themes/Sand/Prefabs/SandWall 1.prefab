@@ -44,7 +44,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da94ef0bc627fbe45a0e26f5282eaa4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ID: 
+  m_ID: SandWall 1
   WallTile: {fileID: 11400000, guid: 117e46571e8fe3e4886a4eb54027dc67, type: 2}
   WallTileDamaged: {fileID: 11400000, guid: 623b20137a9363947b8d633bf805f150, type: 2}
   MaxHealth: 3
+  WallHit:
+    Guid:
+      Data1: -961700696
+      Data2: 1101438021
+      Data3: 878612610
+      Data4: -843930144
+    Path: event:/SFX/Interactables/Walls/Desert Wall Hit
+  WallDestroy:
+    Guid:
+      Data1: 1949090453
+      Data2: 1081304526
+      Data3: -395709282
+      Data4: -1068347387
+    Path: event:/SFX/Interactables/Walls/Desert Wall Destroy

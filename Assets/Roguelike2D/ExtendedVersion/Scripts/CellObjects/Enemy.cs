@@ -18,10 +18,11 @@ namespace Roguelike2D
         public AudioClip[] AttackSFX;
 
 
-        public string EnemyAttack;
-        public string EnemyDamage;
-        public string EnemyDeath;
-        public string EnemyMove;
+
+        public EventReference EnemyAttack;
+        public EventReference EnemyDamage;
+        public EventReference EnemyDeath;
+        public EventReference EnemyMove;
     
         private int m_CurrentHealth;
         private Animator m_Animator;
@@ -30,6 +31,7 @@ namespace Roguelike2D
         {
             GameManager.Instance.TurnManager.AddTrackEntity(this, TurnHappened);
             m_Animator = GetComponent<Animator>();
+
         }
 
         private void OnDestroy()
@@ -111,6 +113,9 @@ namespace Roguelike2D
                     () =>
                     {
                         m_Animator.SetTrigger("Attack");
+
+                        FMODUnity.RuntimeManager.PlayOneShot(EnemyAttack);
+                        
                         if(AttackSFX.Length > 0)
                             GameManager.Instance.PlayAudioSFX(AttackSFX[Random.Range(0, AttackSFX.Length)], transform.position);
                     });

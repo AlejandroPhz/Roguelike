@@ -1,6 +1,8 @@
 using System.IO;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using FMOD.Studio;
+using FMODUnity;
 
 namespace Roguelike2D
 {
@@ -23,6 +25,12 @@ namespace Roguelike2D
         public AudioClip[] WalkingSFX;
         public AudioClip[] AttackSFX;
         public AudioClip[] DamageSFX;
+
+        public EventReference PlayerWalking;
+        public EventReference PlayerAttacking;
+        public EventReference PlayerDamaged;
+        public EventReference PlayerDeath;
+        public EventReference GameOverSound;
     
         private BoardManager m_Board;
         private Vector2Int m_CellPosition;
@@ -82,11 +90,26 @@ namespace Roguelike2D
                     }
                 });
             m_Animator.SetTrigger("Attack");
+
+            FMODUnity.RuntimeManager.PlayOneShot(PlayerAttacking);
         }
 
         public void Damage(int damageAmount)
         {
+
+
             GameManager.Instance.ChangeFood(-damageAmount);
+
+            if(GameManager.Instance.m_FoodAmount > 0)
+            {
+            FMODUnity.RuntimeManager.PlayOneShot(PlayerDamaged);
+            }
+
+            if(GameManager.Instance.m_FoodAmount == 0)
+            {
+            FMODUnity.RuntimeManager.PlayOneShot(PlayerDeath);
+            }
+
             m_Animator.SetTrigger("Hit");
             if(DamageSFX.Length != 0)
                 GameManager.Instance.PlayAudioSFX(DamageSFX[Random.Range(0, DamageSFX.Length)], transform.position);
@@ -109,6 +132,9 @@ namespace Roguelike2D
             }
             else
             {
+
+                FMODUnity.RuntimeManager.PlayOneShot(PlayerWalking);
+
                 BoardManager.CellData cellData;
                 GameManager.Instance.MovingObjectSystem.AddMoveRequest(transform, m_Board.CellToWorld(m_CellPosition),
                     MoveSpeed, false, 0, isMidway =>
@@ -144,6 +170,7 @@ namespace Roguelike2D
     
         public void GameOver()
         {
+            FMODUnity.RuntimeManager.PlayOneShot(GameOverSound);
             m_IsGameOver = true;
         }
 

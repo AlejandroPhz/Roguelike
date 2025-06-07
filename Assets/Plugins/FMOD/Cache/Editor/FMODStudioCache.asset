@@ -96,7 +96,7 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638848877244016338
+  lastModified: 638849099555875680
   FileSizes:
   - Name: Desktop
     Value: 3376
@@ -849,12 +849,13 @@ MonoBehaviour:
   - {fileID: 3541191052875733842}
   - {fileID: 4769724325807536196}
   - {fileID: 5744833317332356850}
+  - {fileID: 3974384729285132847}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8754418022580847940}
   StringsBanks:
   - {fileID: 2788599778530689917}
-  cacheTime: 638848877245524002
+  cacheTime: 638849099558327764
   cacheVersion: 131624
 --- !u!114 &222885644420905022
 MonoBehaviour:
@@ -1134,10 +1135,10 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638848877244034964
+  lastModified: 638849099555885524
   FileSizes:
   - Name: Desktop
-    Value: 3920
+    Value: 3960
   Exists: 1
 --- !u!114 &2882035891598509898
 MonoBehaviour:
@@ -1247,6 +1248,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 634
+--- !u!114 &3974384729285132847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Game Over
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Game Over
+  Guid:
+    Data1: 1979493624
+    Data2: 1244346713
+    Data3: 1444020116
+    Data4: -1395462946
+  Banks:
+  - {fileID: 5932481711515000044}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9964
 --- !u!114 &4741625794616038606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1478,10 +1506,10 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 638848877245524002
+  lastModified: 638849099558327764
   FileSizes:
   - Name: Desktop
-    Value: 37952
+    Value: 165024
   Exists: 1
 --- !u!114 &6108721787237557633
 MonoBehaviour:

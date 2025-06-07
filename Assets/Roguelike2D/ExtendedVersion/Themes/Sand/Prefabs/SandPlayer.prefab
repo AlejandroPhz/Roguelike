@@ -114,6 +114,41 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4c2332bc8245b474dad63074059bb755, type: 3}
   DamageSFX:
   - {fileID: 8300000, guid: 114514a3b3697484ebaa08f7fbf842d3, type: 3}
+  PlayerWalking:
+    Guid:
+      Data1: -1727657526
+      Data2: 1166612572
+      Data3: 2021574832
+      Data4: -1940321706
+    Path: event:/SFX/Player/Desert Player Move
+  PlayerAttacking:
+    Guid:
+      Data1: -2034241429
+      Data2: 1122969532
+      Data3: 490827400
+      Data4: 264421156
+    Path: event:/SFX/Player/Desert Player Attack
+  PlayerDamaged:
+    Guid:
+      Data1: 607008109
+      Data2: 1334689134
+      Data3: -1894744166
+      Data4: 1955175565
+    Path: event:/SFX/Player/Desert Player Damage
+  PlayerDeath:
+    Guid:
+      Data1: 1197151716
+      Data2: 1245098059
+      Data3: -674462059
+      Data4: 867670761
+    Path: event:/SFX/Player/Desert Player Death
+  GameOverSound:
+    Guid:
+      Data1: 1979493624
+      Data2: 1244346713
+      Data3: 1444020116
+      Data4: -1395462946
+    Path: event:/UI/Game Over
 --- !u!95 &1846769325518871564
 Animator:
   serializedVersion: 7

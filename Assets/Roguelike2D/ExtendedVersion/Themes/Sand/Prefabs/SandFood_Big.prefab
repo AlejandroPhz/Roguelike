@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5813256511973374120}
   - component: {fileID: 8998618737479780962}
-  - component: {fileID: -7670983505487320574}
-  - component: {fileID: -2883369398924986700}
+  - component: {fileID: -6287507574785313943}
   m_Layer: 0
   m_Name: SandFood_Big
   m_TagString: Untagged
@@ -89,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-7670983505487320574
+--- !u!114 &-6287507574785313943
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,40 +97,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2884435261169000702}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39b4abe3f7c084986a78df271c5017c5, type: 3}
+  m_Script: {fileID: 11500000, guid: e40d87cffffc5dc4d98b83b49f022152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ID: 
-  PickedUpAudio: []
+  m_ID: SandFood_Big
+  PickedUpAudio:
+  - {fileID: 0}
+  - {fileID: 0}
   AmountGranted: 10
---- !u!114 &-2883369398924986700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2884435261169000702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
+  FoodEat:
     Guid:
       Data1: -1690040667
       Data2: 1156100503
       Data3: 389471417
       Data4: 452475647
     Path: event:/SFX/Interactables/Food/Desert Burger
-  Event: 
-  EventPlayTrigger: 2
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
