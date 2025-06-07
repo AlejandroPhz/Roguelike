@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1728
     height: 979
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 614.5
+    y: 692.5
     width: 1354.5
     height: 306.5
   m_SerializedDataModeController:
@@ -470,7 +470,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Plugins/FMOD/Resources
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -480,16 +480,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Plugins/FMOD/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/Alex/Desktop/Work/Tec/Clases/DSNL/Proyecto Final/Roguelike
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 159}
-    m_SelectedIDs: 7aba0000
-    m_LastClickedID: 47738
-    m_ExpandedIDs: 000000007aba00007cba00007eba000080ba000082ba000084ba000086ba000088ba00008aba00008cba00008eba000090ba000092ba000094ba000096ba000098ba00009aba00009cba00009eba0000
+    scrollPos: {x: 0, y: 161.00021}
+    m_SelectedIDs: 88bd0000
+    m_LastClickedID: 48520
+    m_ExpandedIDs: 000000007aba00007cba00007eba000080ba000082ba000084ba000086ba000088ba00008aba00008cba00008eba000090ba000092ba000094ba000096ba000098ba00009aba00009cba00009eba0000e6bc00008abd000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,8 +597,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1356.5
-    y: 24
+    x: 1355.5
+    y: 102
     width: 371.5
     height: 897
   m_SerializedDataModeController:
@@ -647,7 +647,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 102
     width: 248.5
     height: 564.5
   m_SerializedDataModeController:
@@ -666,7 +666,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f4faffff
+      m_ExpandedIDs: f4faffffaab70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -712,8 +712,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 250.5
-    y: 24
+    x: 249.5
+    y: 102
     width: 1104
     height: 564.5
   m_SerializedDataModeController:
