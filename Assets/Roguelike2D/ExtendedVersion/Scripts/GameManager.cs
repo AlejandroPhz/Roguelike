@@ -66,6 +66,9 @@ namespace Roguelike2D
         private bool m_Pause = false;
         private bool m_NewLevelRequest = false;
 
+        private FMOD.Studio.EventInstance m_PauseSnapshot;
+
+
         void Awake()
         {
             if (Instance != null)
@@ -298,11 +301,20 @@ namespace Roguelike2D
         {
             if (pause)
             {
+
+                FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Pause");
+                m_PauseSnapshot = FMODUnity.RuntimeManager.CreateInstance("snapshot:/Pause Menu");
+                m_PauseSnapshot.start();
+
                 Player.Pause();
                 m_PauseMenuBackground.style.visibility = Visibility.Visible;
             }
             else
             {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Unpause");
+                m_PauseSnapshot.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                m_PauseSnapshot.release();
+
                 Player.Unpause();
                 m_PauseMenuBackground.style.visibility = Visibility.Hidden;
             }
@@ -312,6 +324,8 @@ namespace Roguelike2D
 
         void SaveAndExit()
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Button Click");
+
             string savefile = Application.persistentDataPath + "/savefile.save";
             using (BinaryWriter writer = new BinaryWriter(new FileStream(savefile, FileMode.Create)))
             {

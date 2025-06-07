@@ -96,10 +96,10 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638847658399338348
+  lastModified: 638848298716657455
   FileSizes:
   - Name: Desktop
-    Value: 2920
+    Value: 3376
   Exists: 1
 --- !u!114 &-8668097040523426822
 MonoBehaviour:
@@ -854,7 +854,7 @@ MonoBehaviour:
   - {fileID: -8754418022580847940}
   StringsBanks:
   - {fileID: 2788599778530689917}
-  cacheTime: 638847659852150343
+  cacheTime: 638848298716668779
   cacheVersion: 131624
 --- !u!114 &222885644420905022
 MonoBehaviour:
@@ -1134,7 +1134,7 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638847658399347892
+  lastModified: 638848298716668779
   FileSizes:
   - Name: Desktop
     Value: 3920

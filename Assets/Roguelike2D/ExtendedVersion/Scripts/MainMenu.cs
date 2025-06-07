@@ -29,6 +29,23 @@ namespace Roguelike2D
             var newButton = m_UIDocument.rootVisualElement.Q<Button>("New");
             var quitButton = m_UIDocument.rootVisualElement.Q<Button>("Quit");
 
+
+            continueButton.RegisterCallback<PointerEnterEvent>(evt =>
+            {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Button Hover");
+            });
+
+            newButton.RegisterCallback<PointerEnterEvent>(evt =>
+            {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Button Hover");
+            });
+
+            quitButton.RegisterCallback<PointerEnterEvent>(evt =>
+            {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Button Hover");
+            });
+
+
             m_WorldSettingsThemeDropdown = m_UIDocument.rootVisualElement.Q<DropdownField>("ThemeDropdown");
 
             continueButton.clicked += LoadGame;
@@ -67,6 +84,8 @@ namespace Roguelike2D
         {
             DeleteSaveFile();
 
+            FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Button Click");
+
             CrossSceneDataStore.CreateNewInstance();
             CrossSceneDataStore.Instance.SelectedWordSettings = m_SelectedSettings;
             SceneManager.LoadScene(1, LoadSceneMode.Single);
@@ -75,6 +94,8 @@ namespace Roguelike2D
         void LoadGame()
         {
             WorldSettings foundSettings = null;
+
+            FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Menu Button Click");
         
             //retrieve the world settings
             using (BinaryReader reader = new BinaryReader(new FileStream(Application.persistentDataPath + "/savefile.save", FileMode.Open)))
