@@ -1735,3 +1735,35 @@ Received Import Request.
 Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Sand/Prefabs/SandPlayer.prefab using Guid(11d944df650817c4da19dc30168e1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a2bfdd412c46c8df8d35cf6f36b3350') in 0.31016775 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
 
+========================================================================
+Received Import Request.
+  Time since last request: 1545.090929 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanEnemy2.prefab
+  artifactKey: Guid(b47827737c1821944b413cc089f7a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanEnemy2.prefab using Guid(b47827737c1821944b413cc089f7a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6979fa8c054fb0ae87166c8765529379') in 0.056373708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanWall2.prefab
+  artifactKey: Guid(c7d92b11117d20c4b8f481bf7f29a32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanWall2.prefab using Guid(c7d92b11117d20c4b8f481bf7f29a32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '389bfa5d541d28752428972ff8531cf6') in 0.002901125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanScavenger.prefab
+  artifactKey: Guid(5812b93e5855a7c4fa1ea8f010eba4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanScavenger.prefab using Guid(5812b93e5855a7c4fa1ea8f010eba4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b021faffd667c2671e98f62b2207fc57') in 0.010203958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanFoodLarge.prefab
+  artifactKey: Guid(c04f2a182e47f6b47b85f8788674bec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Urban/Prefabs/UrbanFoodLarge.prefab using Guid(c04f2a182e47f6b47b85f8788674bec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b32bd1847a921d56b7ff03777984ec3') in 0.007245292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+

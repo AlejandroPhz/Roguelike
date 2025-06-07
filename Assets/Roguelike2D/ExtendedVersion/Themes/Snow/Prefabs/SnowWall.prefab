@@ -44,6 +44,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da94ef0bc627fbe45a0e26f5282eaa4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ID: SnowWall
   WallTile: {fileID: 11400000, guid: 441b8ced01a6a4041a2b7da84bd68ed1, type: 2}
   WallTileDamaged: {fileID: 11400000, guid: 2671b39818885474e96519ef6d8c20eb, type: 2}
   MaxHealth: 3
+  WallHit:
+    Guid:
+      Data1: 2134083848
+      Data2: 1233866087
+      Data3: 273000610
+      Data4: -510627537
+    Path: event:/SFX/Interactables/Walls/Snow Wall Hit
+  WallDestroy:
+    Guid:
+      Data1: 149967093
+      Data2: 1077131886
+      Data3: -1990897270
+      Data4: 33386023
+    Path: event:/SFX/Interactables/Walls/Snow Wall Destroy

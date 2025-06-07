@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6814ed006bc8ee6418e5fb98cd657c74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ID: 
+  m_ID: UrbanEnemy1
   Health: 3
   Damage: 1
   Speed: 1
@@ -134,3 +134,31 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 114514a3b3697484ebaa08f7fbf842d3, type: 3}
   AttackSFX:
   - {fileID: 8300000, guid: 0db8cac2749584a009540aa5671ee80d, type: 3}
+  EnemyAttack:
+    Guid:
+      Data1: -1130626035
+      Data2: 1099915111
+      Data3: 2042108325
+      Data4: -597102238
+    Path: event:/SFX/Enemies/Urban Shirtless Zombie Attack
+  EnemyDamage:
+    Guid:
+      Data1: 872614061
+      Data2: 1170927705
+      Data3: -1734575687
+      Data4: 342715624
+    Path: event:/SFX/Enemies/Urban Shirtless Zombie Damage
+  EnemyDeath:
+    Guid:
+      Data1: 289666015
+      Data2: 1106162581
+      Data3: -831684164
+      Data4: -1302319871
+    Path: event:/SFX/Enemies/Urban Shirtless Zombie Death
+  EnemyMove:
+    Guid:
+      Data1: -2103473556
+      Data2: 1116672075
+      Data3: -351616592
+      Data4: 2116546252
+    Path: event:/SFX/Enemies/Urban Shirtless Zombie Move

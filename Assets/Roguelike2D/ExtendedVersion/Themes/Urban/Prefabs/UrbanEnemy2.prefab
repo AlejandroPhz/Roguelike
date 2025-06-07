@@ -134,3 +134,31 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 114514a3b3697484ebaa08f7fbf842d3, type: 3}
   AttackSFX:
   - {fileID: 8300000, guid: 0db8cac2749584a009540aa5671ee80d, type: 3}
+  EnemyAttack:
+    Guid:
+      Data1: 272478865
+      Data2: 1114344248
+      Data3: 1606692019
+      Data4: -1678695613
+    Path: event:/SFX/Enemies/Urban Jacket Zombie Attack
+  EnemyDamage:
+    Guid:
+      Data1: 578150009
+      Data2: 1094368754
+      Data3: 1908641412
+      Data4: 808695530
+    Path: event:/SFX/Enemies/Urban Jacket Zombie Damage
+  EnemyDeath:
+    Guid:
+      Data1: -1312466418
+      Data2: 1195773359
+      Data3: 2107424407
+      Data4: -978385584
+    Path: event:/SFX/Enemies/Urban Jacket Zombie Death
+  EnemyMove:
+    Guid:
+      Data1: -1140572617
+      Data2: 1098148443
+      Data3: 617551292
+      Data4: 638772843
+    Path: event:/SFX/Enemies/Urban Jacket Zombie Move

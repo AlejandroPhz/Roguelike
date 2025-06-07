@@ -100,8 +100,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40d87cffffc5dc4d98b83b49f022152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ID: SmallFood
+  m_ID: UrbanFoodSmall
   PickedUpAudio:
   - {fileID: 8300000, guid: 1cb61f83d60374c7389bb547431919e3, type: 3}
   - {fileID: 8300000, guid: 062161c1897a54088a5430f8c197e1b8, type: 3}
   AmountGranted: 5
+  FoodEat:
+    Guid:
+      Data1: 2038090038
+      Data2: 1146726209
+      Data3: -1799638618
+      Data4: 2002279227
+    Path: event:/SFX/Interactables/Food/Urban Apples

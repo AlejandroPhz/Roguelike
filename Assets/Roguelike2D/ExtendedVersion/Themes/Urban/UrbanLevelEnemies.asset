@@ -31,7 +31,7 @@ MonoBehaviour:
       Weight: 6
     - Level: 8
       Weight: 2
-  - Enemy: {fileID: 5167082878740980427, guid: 298809d9674536c488b39b8419638c27, type: 3}
+  - Enemy: {fileID: 3987777548697950848, guid: b47827737c1821944b413cc089f7a466, type: 3}
     Probabilities:
     - Level: 0
       Weight: 1

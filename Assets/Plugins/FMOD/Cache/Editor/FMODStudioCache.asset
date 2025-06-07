@@ -586,7 +586,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 873
+  Length: 240
 --- !u!114 &-1698206488722738703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -855,7 +855,7 @@ MonoBehaviour:
   - {fileID: -8754418022580847940}
   StringsBanks:
   - {fileID: 2788599778530689917}
-  cacheTime: 638849099558327764
+  cacheTime: 638849120616785563
   cacheVersion: 131624
 --- !u!114 &222885644420905022
 MonoBehaviour:
@@ -899,7 +899,7 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638848877245281247
+  lastModified: 638849120616785563
   FileSizes:
   - Name: Desktop
     Value: 927904
@@ -1672,7 +1672,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 240
+  Length: 873
 --- !u!114 &7431745924455800547
 MonoBehaviour:
   m_ObjectHideFlags: 0

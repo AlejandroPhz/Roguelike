@@ -114,6 +114,41 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4c2332bc8245b474dad63074059bb755, type: 3}
   DamageSFX:
   - {fileID: 8300000, guid: 114514a3b3697484ebaa08f7fbf842d3, type: 3}
+  PlayerWalking:
+    Guid:
+      Data1: -112438535
+      Data2: 1171140897
+      Data3: -1602216029
+      Data4: 927462277
+    Path: event:/SFX/Player/Snow Player Move
+  PlayerAttacking:
+    Guid:
+      Data1: -1226433148
+      Data2: 1170154466
+      Data3: 136914871
+      Data4: -6111067
+    Path: event:/SFX/Player/Snow Player Attack
+  PlayerDamaged:
+    Guid:
+      Data1: -748440494
+      Data2: 1146860358
+      Data3: -1574673733
+      Data4: -1024256011
+    Path: event:/SFX/Player/Snow Player Damage
+  PlayerDeath:
+    Guid:
+      Data1: 967653543
+      Data2: 1322254518
+      Data3: 1051550340
+      Data4: 1896502738
+    Path: event:/SFX/Player/Snow Player Death
+  GameOverSound:
+    Guid:
+      Data1: 1979493624
+      Data2: 1244346713
+      Data3: 1444020116
+      Data4: -1395462946
+    Path: event:/UI/Game Over
 --- !u!95 &1846769325518871564
 Animator:
   serializedVersion: 7

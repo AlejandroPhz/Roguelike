@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6814ed006bc8ee6418e5fb98cd657c74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ID: 
+  m_ID: SnowEnemy_1
   Health: 3
   Damage: 1
   Speed: 1
@@ -134,3 +134,31 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 114514a3b3697484ebaa08f7fbf842d3, type: 3}
   AttackSFX:
   - {fileID: 8300000, guid: 0db8cac2749584a009540aa5671ee80d, type: 3}
+  EnemyAttack:
+    Guid:
+      Data1: 692242042
+      Data2: 1248796768
+      Data3: -1432187999
+      Data4: -517598189
+    Path: event:/SFX/Enemies/Snow Small Blob Attack
+  EnemyDamage:
+    Guid:
+      Data1: 1857264928
+      Data2: 1262212839
+      Data3: 1197830542
+      Data4: -646636187
+    Path: event:/SFX/Enemies/Snow Small Blob Damage
+  EnemyDeath:
+    Guid:
+      Data1: -846025876
+      Data2: 1264814951
+      Data3: 429568416
+      Data4: 1157548270
+    Path: event:/SFX/Enemies/Snow Small Blob Death
+  EnemyMove:
+    Guid:
+      Data1: -462463933
+      Data2: 1307318999
+      Data3: 1992063891
+      Data4: -1460613239
+    Path: event:/SFX/Enemies/Snow Small Blob Move
