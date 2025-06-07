@@ -17,7 +17,7 @@ namespace Roguelike2D
         public AudioClip[] DamagedSFX;
         public AudioClip[] AttackSFX;
 
-
+        private SpriteRenderer m_SpriteRenderer;
 
         public EventReference EnemyAttack;
         public EventReference EnemyDamage;
@@ -31,6 +31,8 @@ namespace Roguelike2D
         {
             GameManager.Instance.TurnManager.AddTrackEntity(this, TurnHappened);
             m_Animator = GetComponent<Animator>();
+
+            m_SpriteRenderer = GetComponent<SpriteRenderer>();
 
         }
 
@@ -63,6 +65,17 @@ namespace Roguelike2D
             {
                 return false;
             }
+
+
+                // Flip the sprite if moving left or right
+                if (coord.x > m_Cell.x)
+                {
+                    m_SpriteRenderer.flipX = true; // Face right
+                }
+                else if (coord.x < m_Cell.x)
+                {
+                    m_SpriteRenderer.flipX = false;  // Face left
+                }
         
             //remove enemy from current cell
             var currentCell = GameManager.Instance.Board.GetCellData(m_Cell);

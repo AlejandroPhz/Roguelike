@@ -6,7 +6,7 @@
 [LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x2b4835808 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x2a821a008 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,115 +18,36 @@
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] SystemI::createSound                     : filename = FMOD/Roguelike/Build/Desktop/SFX.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0x32fb13bb8, queue head = 0x2a9089518, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x32fb13bb8
-[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Roguelike/Build/Desktop/SFX.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 871008
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 56896
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x32fb568d0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626', format=5, channels=2, frequency=48000, lengthbytes=131200, lengthpcm=706451, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.127548.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x32fb13bb8
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0x323410e98, queue head = 0x2a9089518, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x323410e98
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x323410e98
-[LOG] SoundI::release                          : Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626 (0x323c62008)
-[LOG] SoundI::release                          :     Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626 (0x2ac4e6b68)
-[LOG] SoundI::release                          :     Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626 (0x2ac4e6cf8)
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 159744
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 5280
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x2daeea7f4
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x32b71b078
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x32b71b148
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x32b71b184
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x32b71b254
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x323435678
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Game Lose', format=5, channels=2, frequency=48000, lengthbytes=125760, lengthpcm=478286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.871729.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 871008
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 56896
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x2daeea7f4
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x32b71b078
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x32b71b148
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x32b71b184
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x32b71b254
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x3234877c8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Voices, Scream, Male, Attack, Special Smash 01 SND124166', format=5, channels=1, frequency=48000, lengthbytes=8640, lengthpcm=52064, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.208789.
-[LOG] SystemI::createSound                     : filename = FMOD/Roguelike/Build/Desktop/SFX.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0x323c62008, queue head = 0x2a9089518, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x323c62008
-[LOG] SystemI::createSoundInternal             :     Create name='FMOD/Roguelike/Build/Desktop/SFX.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 871008
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 56896
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x2a08c4830
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626', format=5, channels=2, frequency=48000, lengthbytes=131200, lengthpcm=706451, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.127548.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x323c62008
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0x32349c378, queue head = 0x2a9089518, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x32349c378
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x32349c378
-[LOG] SoundI::release                          : Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626 (0x323c62008)
-[LOG] SoundI::release                          :     Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626 (0x323404e38)
-[LOG] SoundI::release                          :     Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626 (0x32349c378)
-[LOG] SoundI::release                          : Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626 (0x32fb13bb8)
-[LOG] SoundI::release                          :     Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626 (0x32349ea68)
-[LOG] SoundI::release                          :     Designed, Drone, Abstract Hum, Tubes, Evolving 03 SND12626 (0x323410e98)
-[LOG] SoundI::release                          :  (0x32fbd0d08)
-[LOG] SoundI::release                          :     Creatures, Humanoid, Zombie, Male, Death Groan SND22546 3 (0x32fb44778)
-[LOG] SoundI::release                          :  (0x323c0b818)
-[LOG] SoundI::release                          :     Wood, Crash & Debris, Pieces, Small, Thin, Kindling, Drop To Ground SND20665 (0x2a083bc38)
-[LOG] SoundI::release                          :  (0x2a900ee98)
-[LOG] SoundI::release                          :     User Interface, Alert, Alert Tone, Reverb, Three Variatons SND37228 (0x2a9087858)
-[LOG] SoundI::release                          :  (0x2fff9ac18)
-[LOG] SoundI::release                          :     Food & Drink, Eating, Vegetable, Carrot, Bite, Chew, Close Up SND134547 (0x2fff5a198)
-[LOG] SoundI::release                          :  (0x32fbef908)
-[LOG] SoundI::release                          :     Food & Drink, Drink Movement, Swirl, Big Bottle SND122627 (0x32fb29cb8)
+[LOG] SoundI::release                          : Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x323c321d8)
+[LOG] SoundI::release                          :     Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x323cc1dd8)
+[LOG] SoundI::release                          :     Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x323cecfa8)
+[LOG] SoundI::release                          : Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x32fb6c458)
+[LOG] SoundI::release                          :     Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x32fb5fb68)
+[LOG] SoundI::release                          :     Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x32fbf71f8)
+[LOG] SoundI::release                          :  (0x323b2a248)
+[LOG] SoundI::release                          :     Human, Misc, Squeeze Spot, Zit, Puss SND23621 6 (0x32c0b84e8)
+[LOG] SoundI::release                          :  (0x32b28f3b8)
+[LOG] SoundI::release                          :     Human, Misc, Squeeze Spot, Zit, Puss SND23621 4 (0x323459de8)
+[LOG] SoundI::release                          :  (0x29c2bf498)
+[LOG] SoundI::release                          :     Human, Misc, Squeeze Spot, Zit, Puss SND23621 3 (0x29c20e6e8)
+[LOG] SoundI::release                          :  (0x323c0a418)
+[LOG] SoundI::release                          :     Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 (0x323cf6d78)
 [LOG] SoundI::release                          :  (0x33c2a36a8)
-[LOG] SoundI::release                          :     Footsteps, Human, Dress Shoes, Rocks, Large, Jog, Run, Close SND126276 2 (0x33c25b9d8)
-[LOG] SoundI::release                          :  (0x32c05a258)
-[LOG] SoundI::release                          :     Footsteps, Human, Slippers, Carpet, Wood, Jog, Run, Close SND128285 (0x2ac42ed68)
-[LOG] SoundI::release                          :  (0x2a98433c8)
-[LOG] SoundI::release                          :     Plastic, Crash & Debris, Broken Fan, Throw On Other Junk SND30202 1 (0x143f975f8)
-[LOG] SoundI::release                          :  (0x32347d028)
-[LOG] SoundI::release                          :     Voices, Efforts, Male, Fight, Hurt, Ouch SND124145 4 (0x3234dfd48)
-[LOG] SoundI::release                          :  (0x32c0d2fb8)
-[LOG] SoundI::release                          :     Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 1 (0x29c232118)
-[LOG] SoundI::release                          :  (0x32361cbd8)
-[LOG] SoundI::release                          :     Creatures, Humanoid, Zombie, Reaction SND4402 1 (0x2a0821d88)
-[LOG] SoundI::release                          :  (0x32342b998)
-[LOG] SoundI::release                          :     Creatures, Humanoid, Zombie, Reaction SND4402 2 (0x323449ed8)
-[LOG] SoundI::release                          :  (0x3234879c8)
-[LOG] SoundI::release                          :     Voices, Scream, Male, Attack, Special Smash 01 SND124166 (0x3234208d8)
-[LOG] SoundI::release                          :  (0x323c14b08)
-[LOG] SoundI::release                          :     SFX_UI_ButtonHover (0x2a0845458)
-[LOG] SoundI::release                          :  (0x323495948)
-[LOG] SoundI::release                          :     SFX_UI_ButtonStartGame (0x32345cd28)
-[LOG] SoundI::release                          :  (0x3234484b8)
-[LOG] SoundI::release                          :     Game Lose (0x323448678)
+[LOG] SoundI::release                          :     Voices, Efforts, Male, Fight, Hurt, Ouch SND124145 (0x33c2f1dc8)
+[LOG] SoundI::release                          :  (0x323c8ef18)
+[LOG] SoundI::release                          :     Human, Misc, Squeeze Spot, Zit, Puss SND23621 5 (0x323c5dbc8)
+[LOG] SoundI::release                          :  (0x323baae08)
+[LOG] SoundI::release                          :     Food & Drink, Eating, Vegetable, Carrot, Bite, Chew, Close Up SND134547 1 (0x32c0bb548)
+[LOG] SoundI::release                          :  (0x323b6b188)
+[LOG] SoundI::release                          :     Food & Drink, Eating, Crispbread, Chewing, Open Mouth, Crunchy, Crispy, Dry, Sanken 100k SND123041 (0x29c21fa08)
+[LOG] SoundI::release                          :  (0x2a903a948)
+[LOG] SoundI::release                          :     Footsteps, Human, Snow, -20C, Medium SND1593 (0x29c251658)
+[LOG] SoundI::release                          :  (0x32343f998)
+[LOG] SoundI::release                          :     User Interface, Alert, Alert Tone, Reverb, Three Variatons SND37228 (0x3234c23d8)
+[LOG] SoundI::release                          :  (0x2ac4ea1f8)
+[LOG] SoundI::release                          :     SFX_UI_ButtonHover (0x29c269418)
+[LOG] SoundI::release                          :  (0x323469fb8)
+[LOG] SoundI::release                          :     SFX_UI_ButtonStartGame (0x3234e3198)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
