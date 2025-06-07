@@ -134,3 +134,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 114514a3b3697484ebaa08f7fbf842d3, type: 3}
   AttackSFX:
   - {fileID: 8300000, guid: 0db8cac2749584a009540aa5671ee80d, type: 3}
+  EnemyAttack: event:/SFX/Enemies/Desert Zombie Attack
+  EnemyDamage: event:/SFX/Enemies/Desert Zombie Damage
+  EnemyDeath: event:/SFX/Enemies/Desert Zombie Death
+  EnemyMove: event:/SFX/Enemies/Desert Zombie Move

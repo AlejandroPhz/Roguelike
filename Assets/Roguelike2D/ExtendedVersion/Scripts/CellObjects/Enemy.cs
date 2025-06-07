@@ -1,6 +1,9 @@
 using System.IO;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using FMOD.Studio;
+using FMODUnity;
+
 
 namespace Roguelike2D
 {
@@ -13,6 +16,12 @@ namespace Roguelike2D
         public AudioClip[] WalkSFX;
         public AudioClip[] DamagedSFX;
         public AudioClip[] AttackSFX;
+
+
+        public string EnemyAttack;
+        public string EnemyDamage;
+        public string EnemyDeath;
+        public string EnemyMove;
     
         private int m_CurrentHealth;
         private Animator m_Animator;
@@ -27,6 +36,7 @@ namespace Roguelike2D
         {
             RemoveFromBoard();
             GameManager.Instance.TurnManager.RemovedTrackedEntity(this);
+
         }
 
         public override void Init(Vector2Int coord)
@@ -47,6 +57,7 @@ namespace Roguelike2D
             if (targetCell == null 
                 || !targetCell.Passable
                 || targetCell.UniqueCellObject != null)
+
             {
                 return false;
             }
@@ -56,7 +67,7 @@ namespace Roguelike2D
             currentCell.RemoveObject(this);
         
             if(WalkSFX.Length > 0)
-                GameManager.Instance.PlayAudioSFX(WalkSFX[Random.Range(0, WalkSFX.Length)], transform.position);
+                            
         
             //added right away to the next cell, as other thing will test if that cell is free right now. The movement is
             //only visual, internally the enemy is already on the new cell
@@ -70,6 +81,7 @@ namespace Roguelike2D
                 }, () =>
                 {
                     m_Animator.SetBool("Moving", true);
+                    FMODUnity.RuntimeManager.PlayOneShot(EnemyMove);
                 });
 
             return true;
@@ -163,10 +175,16 @@ namespace Roguelike2D
         
             m_Animator.SetTrigger("Hit");
             if(DamagedSFX.Length > 0)
+               { 
                 GameManager.Instance.PlayAudioSFX(DamagedSFX[Random.Range(0, DamagedSFX.Length)], transform.position);
+                }
+
+             if(m_CurrentHealth > 0)
+                FMODUnity.RuntimeManager.PlayOneShot(EnemyDamage);
 
             if (m_CurrentHealth <= 0)
             {
+                FMODUnity.RuntimeManager.PlayOneShot(EnemyDeath);
                 Destroy(gameObject);
             }
         }

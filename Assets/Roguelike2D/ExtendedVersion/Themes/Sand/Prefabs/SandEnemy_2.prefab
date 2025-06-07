@@ -131,6 +131,10 @@ MonoBehaviour:
   WalkSFX: []
   DamagedSFX: []
   AttackSFX: []
+  EnemyAttack: event:/SFX/Enemies/Desert Insect Attack
+  EnemyDamage: event:/SFX/Enemies/Desert Insect Damage
+  EnemyDeath: event:/SFX/Enemies/Desert Insect Death
+  EnemyMove: event:/SFX/Enemies/Desert Insect Move
 --- !u!114 &-6078342990636768659
 MonoBehaviour:
   m_ObjectHideFlags: 0
