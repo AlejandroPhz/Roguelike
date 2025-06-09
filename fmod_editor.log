@@ -6,7 +6,7 @@
 [LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x2a821a008 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x337cf6c08 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,46 +18,8 @@
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] SoundI::release                          : Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x323c321d8)
-[LOG] SoundI::release                          :     Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x323cc1dd8)
-[LOG] SoundI::release                          :     Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x323cecfa8)
-[LOG] SoundI::release                          : Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x32fb6c458)
-[LOG] SoundI::release                          :     Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x32fb5fb68)
-[LOG] SoundI::release                          :     Wind, Tonal, Post Vibration, Electric Field, Mexico 01 SND100437 (0x32fbf71f8)
-[LOG] SoundI::release                          :  (0x323b2a248)
-[LOG] SoundI::release                          :     Human, Misc, Squeeze Spot, Zit, Puss SND23621 6 (0x32c0b84e8)
-[LOG] SoundI::release                          :  (0x32b28f3b8)
-[LOG] SoundI::release                          :     Human, Misc, Squeeze Spot, Zit, Puss SND23621 4 (0x323459de8)
-[LOG] SoundI::release                          :  (0x29c2bf498)
-[LOG] SoundI::release                          :     Human, Misc, Squeeze Spot, Zit, Puss SND23621 3 (0x29c20e6e8)
-[LOG] SoundI::release                          :  (0x323c0a418)
-[LOG] SoundI::release                          :     Voices, Efforts, Male, Fight, Angry Grunts 01 SND62136 (0x323cf6d78)
-[LOG] SoundI::release                          :  (0x33c2a36a8)
-[LOG] SoundI::release                          :     Voices, Efforts, Male, Fight, Hurt, Ouch SND124145 (0x33c2f1dc8)
-[LOG] SoundI::release                          :  (0x323c8ef18)
-[LOG] SoundI::release                          :     Human, Misc, Squeeze Spot, Zit, Puss SND23621 5 (0x323c5dbc8)
-[LOG] SoundI::release                          :  (0x323baae08)
-[LOG] SoundI::release                          :     Food & Drink, Eating, Vegetable, Carrot, Bite, Chew, Close Up SND134547 1 (0x32c0bb548)
-[LOG] SoundI::release                          :  (0x323b6b188)
-[LOG] SoundI::release                          :     Food & Drink, Eating, Crispbread, Chewing, Open Mouth, Crunchy, Crispy, Dry, Sanken 100k SND123041 (0x29c21fa08)
-[LOG] SoundI::release                          :  (0x2a903a948)
-[LOG] SoundI::release                          :     Footsteps, Human, Snow, -20C, Medium SND1593 (0x29c251658)
-[LOG] SoundI::release                          :  (0x32343f998)
-[LOG] SoundI::release                          :     User Interface, Alert, Alert Tone, Reverb, Three Variatons SND37228 (0x3234c23d8)
-[LOG] SoundI::release                          :  (0x2ac4ea1f8)
-[LOG] SoundI::release                          :     SFX_UI_ButtonHover (0x29c269418)
-[LOG] SoundI::release                          :  (0x323469fb8)
-[LOG] SoundI::release                          :     SFX_UI_ButtonStartGame (0x3234e3198)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -65,5 +27,3 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.

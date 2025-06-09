@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40d87cffffc5dc4d98b83b49f022152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ID: 
+  m_ID: SandFood_small
   PickedUpAudio: []
   AmountGranted: 5
   FoodEat:

@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6814ed006bc8ee6418e5fb98cd657c74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ID: 
+  m_ID: UrbanEnemy2
   Health: 3
   Damage: 1
   Speed: 1

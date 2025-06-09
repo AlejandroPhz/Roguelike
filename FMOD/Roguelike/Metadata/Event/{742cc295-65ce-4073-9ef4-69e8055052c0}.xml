@@ -5,7 +5,7 @@
 			<value>Desert Wall Destroy</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5f15999b-4604-4c4c-bf39-a7efb3fd6c06}</destination>
@@ -59,18 +59,11 @@
 	<object class="EventAutomatableProperties" id="{7887a715-a96c-4d8c-98ac-5563bbe77882}" />
 	<object class="MarkerTrack" id="{441eb45f-360e-4cb9-841a-5263097bfabf}" />
 	<object class="GroupTrack" id="{8a519198-8ae7-44f3-be80-d44d7b0d0556}">
-		<relationship name="modules">
-			<destination>{8e6e86ae-7f64-44c3-8c7e-9783eaed5466}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e2c2465f-ad1f-4104-8438-ea70e02f52eb}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{9326f7e1-7b38-4c48-8f31-2e07fcd23462}">
-		<relationship name="modules">
-			<destination>{8e6e86ae-7f64-44c3-8c7e-9783eaed5466}</destination>
-		</relationship>
-	</object>
+	<object class="Timeline" id="{9326f7e1-7b38-4c48-8f31-2e07fcd23462}" />
 	<object class="EventMixerMaster" id="{97f86125-077f-428d-8863-e77203b3a130}">
 		<relationship name="effectChain">
 			<destination>{e711375d-48d9-4710-bde9-78158fe27e14}</destination>
@@ -88,17 +81,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e64da360-add8-4bc3-b6c6-1f303475330b}" />
-	<object class="SingleSound" id="{8e6e86ae-7f64-44c3-8c7e-9783eaed5466}">
-		<property name="length">
-			<value>0.40137499999999998</value>
-		</property>
-		<property name="volume">
-			<value>-6.5</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{73386664-b3e4-49dc-9972-6eda2bcc9b13}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{e2c2465f-ad1f-4104-8438-ea70e02f52eb}">
 		<property name="name">
 			<value>Audio 1</value>
