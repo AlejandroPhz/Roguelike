@@ -26,7 +26,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 495
 --- !u!114 &-8754418022580847940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638850682230883604
+  lastModified: 639162748770000000
   FileSizes:
   - Name: Desktop
     Value: 3376
@@ -73,7 +73,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 341
 --- !u!114 &-8362011758977879487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1186
 --- !u!114 &-7742315224267824704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1186
 --- !u!114 &-7267308889212696061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,7 +154,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 348
 --- !u!114 &-7257529119950476592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1002
 --- !u!114 &-7160067022389677878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 472
 --- !u!114 &-7048171214743412480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,7 +235,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2962
 --- !u!114 &-6970369635811358673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,7 +262,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1000
 --- !u!114 &-6440043242376222564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,7 +289,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 996
 --- !u!114 &-5618064611633462373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,34 +316,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
---- !u!114 &-5567503773871186767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Player/Desert Player Damage
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Player/Desert Player Damage
-  Guid:
-    Data1: 607008109
-    Data2: 1334689134
-    Data3: -1894744166
-    Data4: 1955175565
-  Banks:
-  - {fileID: 255636961471657659}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  Length: 781
 --- !u!114 &-5327064554687019244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,13 +337,13 @@ MonoBehaviour:
     Data4: -1896064297
   Banks:
   - {fileID: 255636961471657659}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 119500
 --- !u!114 &-4927645079487428190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,7 +370,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 500
 --- !u!114 &-4711030122257533019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,7 +397,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 797
 --- !u!114 &-4215608829356753179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -451,7 +424,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 341
 --- !u!114 &-4016595529891807187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,7 +451,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 7409
 --- !u!114 &-3371149076138257056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,7 +478,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1481
 --- !u!114 &-3067597589671663102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -532,7 +505,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 703
 --- !u!114 &-2988086879198048987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,7 +532,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2481
 --- !u!114 &-2735175021953241938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,7 +559,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1186
 --- !u!114 &-2727267498836594585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -613,7 +586,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 281
 --- !u!114 &-2566504535559378355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,7 +613,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 718
 --- !u!114 &-2200248382623579147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -667,7 +640,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 500
 --- !u!114 &-2185942737659958108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -721,7 +694,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1186
 --- !u!114 &-1734624373994088302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -748,7 +721,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1186
 --- !u!114 &-1016333568072928178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -764,12 +737,12 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638850682230959078
+  lastModified: 639162748780000000
   FileSizes:
   - Name: Desktop
-    Value: 1514
+    Value: 795232
   Exists: 1
---- !u!114 &-851640881824772496
+--- !u!114 &-859984788445847319
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -779,14 +752,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Enemies/Snow Small Blob Death
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Enemies/Snow Small Blob Death
+  m_Name: event:/SFX/Player/Desert Player Damage
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Player/Desert Player Damage
   Guid:
-    Data1: -846025876
-    Data2: 1264814951
-    Data3: 429568416
-    Data4: 1157548270
+    Data1: 607008109
+    Data2: 1334689134
+    Data3: -1894744166
+    Data4: 1955175565
   Banks:
   - {fileID: 255636961471657659}
   IsStream: 0
@@ -795,7 +768,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 500
 --- !u!114 &-36647024955205339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -822,7 +795,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1033
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -870,8 +843,6 @@ MonoBehaviour:
   - {fileID: 976543048878416648}
   - {fileID: 7312907018672590222}
   - {fileID: 1554350808227786599}
-  - {fileID: -851640881824772496}
-  - {fileID: -5567503773871186767}
   - {fileID: 7612832040560165549}
   - {fileID: 8819291950535146262}
   - {fileID: -7742315224267824704}
@@ -901,12 +872,14 @@ MonoBehaviour:
   - {fileID: 1923994665255529518}
   - {fileID: -4016595529891807187}
   - {fileID: -2200248382623579147}
+  - {fileID: 968654160912470221}
+  - {fileID: -859984788445847319}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8754418022580847940}
   StringsBanks:
   - {fileID: 2788599778530689917}
-  cacheTime: 638850682231293519
+  cacheTime: 639162748800000000
   cacheVersion: 131624
 --- !u!114 &145885056893342589
 MonoBehaviour:
@@ -928,13 +901,13 @@ MonoBehaviour:
     Data4: -351642698
   Banks:
   - {fileID: 255636961471657659}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 36000
 --- !u!114 &255636961471657659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -950,10 +923,10 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638850682231208497
+  lastModified: 639162748800000000
   FileSizes:
   - Name: Desktop
-    Value: 34148
+    Value: 4110496
   Exists: 1
 --- !u!114 &567340144095371648
 MonoBehaviour:
@@ -975,13 +948,40 @@ MonoBehaviour:
     Data4: -1934200287
   Banks:
   - {fileID: -1016333568072928178}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 63600
+--- !u!114 &968654160912470221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Snow Small Blob Death
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Enemies/Snow Small Blob Death
+  Guid:
+    Data1: -846025876
+    Data2: 1264814951
+    Data3: 429568416
+    Data4: 1157548270
+  Banks:
+  - {fileID: 255636961471657659}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 703
 --- !u!114 &976543048878416648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 728
 --- !u!114 &1385856929733845607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 996
 --- !u!114 &1487099423992408078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1062,7 +1062,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 703
 --- !u!114 &1529699854874908562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1089,7 +1089,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 960
 --- !u!114 &1554350808227786599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 281
 --- !u!114 &1923994665255529518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1143,7 +1143,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 500
 --- !u!114 &2788599778530689917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638850682230928180
+  lastModified: 639162748770000000
   FileSizes:
   - Name: Desktop
     Value: 3822
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 341
 --- !u!114 &3212651856102054123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1217,7 +1217,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2005
 --- !u!114 &3639429116225099932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1244,7 +1244,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1321
 --- !u!114 &3792140725629046140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1271,7 +1271,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 500
 --- !u!114 &3974384729285132847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1292,13 +1292,13 @@ MonoBehaviour:
     Data4: -1395462946
   Banks:
   - {fileID: 5932481711515000044}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 14400
 --- !u!114 &4097338321497871327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,7 +1325,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 495
 --- !u!114 &4193129928094740935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1352,7 +1352,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 791
 --- !u!114 &4458952570752670236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1379,7 +1379,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 996
 --- !u!114 &4853166708345443400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1406,7 +1406,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 791
 --- !u!114 &5279016149334463126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1433,7 +1433,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1000
 --- !u!114 &5392938589789643718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1460,7 +1460,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 703
 --- !u!114 &5849089779487725658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1487,7 +1487,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 797
 --- !u!114 &5932481711515000044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1503,10 +1503,10 @@ MonoBehaviour:
   Path: FMOD/Roguelike/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 638850682231293519
+  lastModified: 639162748800000000
   FileSizes:
   - Name: Desktop
-    Value: 3786
+    Value: 202560
   Exists: 1
 --- !u!114 &5977091355337480321
 MonoBehaviour:
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1186
 --- !u!114 &7015126985837352903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1561,7 +1561,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1186
 --- !u!114 &7051967450573414707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1588,7 +1588,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 625
 --- !u!114 &7312907018672590222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1615,7 +1615,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 797
 --- !u!114 &7612832040560165549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1642,7 +1642,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 281
 --- !u!114 &7894288788113477978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1669,7 +1669,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 828
 --- !u!114 &8389075579034637790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1690,13 +1690,13 @@ MonoBehaviour:
     Data4: 1056889492
   Banks:
   - {fileID: 255636961471657659}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 116000
 --- !u!114 &8555810471888808038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1723,7 +1723,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 937
 --- !u!114 &8819291950535146262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1750,7 +1750,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1186
 --- !u!114 &9001847917734825876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1777,4 +1777,4 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 244

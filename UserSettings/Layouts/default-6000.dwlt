@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 36
     width: 1728
     height: 923
-  m_MinSize: {x: 300, y: 100}
+  m_MinSize: {x: 300, y: 106}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 108
+  controlID: 47
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -221,10 +221,10 @@ MonoBehaviour:
     y: 0
     width: 1343.5
     height: 923
-  m_MinSize: {x: 200, y: 100}
+  m_MinSize: {x: 200, y: 106}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 109
+  controlID: 48
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 110
+  controlID: 49
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -539,6 +539,34 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Services/Environment
+      index: 8
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: HotReload
+      index: 9
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
       scrollOffset: 0
@@ -759,7 +787,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Roguelike2D/ExtendedVersion/Scripts
+    - Assets/Plugins/FMOD/Resources
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -769,20 +797,23 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Roguelike2D/ExtendedVersion/Scripts
+  - Assets/Plugins/FMOD/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/Alex/Desktop/Work/Tec/Clases/DSNL/Proyecto Final/Roguelike
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 239}
+    scrollPos: {x: 0, y: 255}
     m_SelectedIDs:
-    - m_Data: 53564
+    - m_Data: 53684
     m_LastClickedID:
-      m_Data: 53564
+      m_Data: 53684
     m_ExpandedIDs:
     - m_Data: 0
+    - m_Data: 53216
+    - m_Data: 53218
+    - m_Data: 53220
     - m_Data: 53222
     - m_Data: 53224
     - m_Data: 53226
@@ -800,9 +831,7 @@ MonoBehaviour:
     - m_Data: 53250
     - m_Data: 53252
     - m_Data: 53254
-    - m_Data: 53256
-    - m_Data: 53258
-    - m_Data: 53260
+    - m_Data: 53554
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -837,6 +866,9 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
+    - m_Data: 53216
+    - m_Data: 53218
+    - m_Data: 53220
     - m_Data: 53222
     - m_Data: 53224
     - m_Data: 53226
@@ -854,9 +886,6 @@ MonoBehaviour:
     - m_Data: 53250
     - m_Data: 53252
     - m_Data: 53254
-    - m_Data: 53256
-    - m_Data: 53258
-    - m_Data: 53260
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -885,7 +914,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: []
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0

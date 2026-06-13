@@ -7,9 +7,9 @@ Darwin version:          22.6.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-05-19T06:38:05Z
+Date:                    2026-06-13T17:31:48Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Alex" at "2026-05-19T06:38:05.548527Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Alex" at "2026-06-13T17:31:48.257655Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.15f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55951
+52564
 -licensingIpc
 LicenseClient-Alex
 -job-worker-count
@@ -70,14 +70,14 @@ Successfully changed project path to: /Users/Alex/Desktop/Work/Tec/Clases/DSNL/P
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8079646848]  Target information:
+Player connection [8409866368]  Target information:
 
-Player connection [8079646848]  * "[IP] 192.168.21.154 [Port] 0 [Flags] 2 [Guid] 1773907065 [EditorId] 1773907065 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-22.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8409866368]  * "[IP] 192.168.100.4 [Port] 0 [Flags] 2 [Guid] 4200441968 [EditorId] 4200441968 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-22.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8079646848]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1773907065 [EditorId] 1773907065 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-22.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8409866368]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 4200441968 [EditorId] 4200441968 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-22.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8079646848] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8079646848] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8409866368] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8409866368] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -89,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 16.68 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 26.45 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -111,26 +111,26 @@ ReadWrite Texture Tier: 2
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Alex"
 [Licensing::IpcConnector] LicenseClient-Alex channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Alex-6000.3.15" at "2026-05-19T06:38:05.816277Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Alex-6000.3.15" at "2026-06-13T17:31:48.548827Z"
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.15f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.15f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.15f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56901
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56991
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000314 seconds.
+Registered in 0.000739 seconds.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              8a9096b5b40248a0855f3933d976d14a
-  Correlation Id:          5a606518364df771df446ebb1d336668
-  External correlation Id: 335940001711877930
+  Session Id:              210b33774af54733a18f5d2c689c3405
+  Correlation Id:          5d263ee95adcdb23a3b13b139a57108c
+  External correlation Id: 2162994182846625113
   Machine Id:              fCrhWvHADvYwb42OuRYr3C/F7Ys=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Alex-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.27s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Alex-6000.3.15-notifications" at "2026-05-19T06:38:06.090091Z"
-[Licensing::Module] Licensing Background thread has ended after 0.54s
-- Loaded All Assemblies, in  0.279 seconds
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Alex-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.31s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Alex-6000.3.15-notifications" at "2026-06-13T17:31:48.862407Z"
+[Licensing::Module] Licensing Background thread has ended after 0.60s
+- Loaded All Assemblies, in  0.335 seconds
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -138,35 +138,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.291 seconds
-Domain Reload Profiling: 570ms
-	BeginReloadAssembly (71ms)
+- Finished resetting the current domain, in  0.317 seconds
+Domain Reload Profiling: 652ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (31ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (70ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (132ms)
-				TypeCache.ScanAssembly (120ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (126ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (291ms)
+	FinalizeReload (317ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (251ms)
+		SetupLoadedEditorAssemblies (273ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (99ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -190,9 +190,9 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.578 seconds
+- Loaded All Assemblies, in  0.627 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 3.21 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 2.97 ms, found 5 plugins.
 Native extension for OSXStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -206,35 +206,35 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.604 seconds
-Domain Reload Profiling: 1181ms
-	BeginReloadAssembly (89ms)
+- Finished resetting the current domain, in  0.596 seconds
+Domain Reload Profiling: 1222ms
+	BeginReloadAssembly (99ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (426ms)
-		LoadAssemblies (221ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (279ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (155ms)
-			BuildScriptInfoCaches (56ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (142ms)
+			BuildScriptInfoCaches (53ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (604ms)
+	FinalizeReload (596ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (493ms)
+		SetupLoadedEditorAssemblies (482ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
+			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (283ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -246,19 +246,19 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.15f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.04 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7737 unused Assets / (4.9 MB). Loaded Objects now: 8475.
-Memory consumption went from 151.1 MB to 146.2 MB.
-Total: 8.754250 ms (FindLiveObjects: 0.739209 ms CreateObjectMapping: 0.292416 ms MarkObjects: 5.530083 ms  DeleteObjects: 2.192292 ms)
+Unloading 7737 unused Assets / (5.6 MB). Loaded Objects now: 8475.
+Memory consumption went from 151.1 MB to 145.4 MB.
+Total: 8.334041 ms (FindLiveObjects: 1.288541 ms CreateObjectMapping: 0.225709 ms MarkObjects: 4.739125 ms  DeleteObjects: 2.080000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 176156.707084 seconds.
+  Time since last request: 1081926.924772 seconds.
   path: Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
   artifactKey: Guid(f6d36830abe9d482484d64f8ea80150e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset using Guid(f6d36830abe9d482484d64f8ea80150e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bbce6b15b788f63d1a154820825fa22') in 0.087047917 seconds
+Start importing Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset using Guid(f6d36830abe9d482484d64f8ea80150e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8f5234d49bb6d93019893a0e804e23c') in 0.087270334 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
 
